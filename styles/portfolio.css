@@ -36,6 +36,7 @@
     font-size: 20px;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 
 }
 
@@ -203,4 +204,30 @@ main section{
 .resume-download-cv{
     text-align: center;
     margin-top: 50px;
+}
+
+/* footer section */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type='text'],footer input[type='email']{
+    height: 65px ;
+    width: 450px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px 15px;
+    border: none;
+    display: block;
+    margin-bottom: 25px;
+
+}
+ footer textarea{
+ height: 180px;
+ width: 450px;
+ border: none;
 }
