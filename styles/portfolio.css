@@ -158,3 +158,49 @@ main section{
     box-shadow: 0px 6px 50px 0 rgba(0, 0, 0, 0.06);
 }
 
+/* resume section style */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+
+.resume-section-title{
+
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.resume-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.experience-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.experience-sub-title{
+    color:#757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+.experience-desceription{
+    color: #757575;
+    font-size: 16px;
+}
+.resume-container hr{
+    margin: 30px 0 30px 0;
+}
+.resume-download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
